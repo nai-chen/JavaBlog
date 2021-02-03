@@ -17,14 +17,14 @@ public class SocketUdpClient {
 		int UDP_SERVER_PORT = 1234;
 		byte[] buffer = ("data from UDP client " + UDP_SERVER_PORT).getBytes();
 		
-        //新建一个DatagramSocket对象
+        // 鏂板缓涓�涓狣atagramSocket瀵硅薄
         DatagramSocket ds = null;
         try {
             ds = new DatagramSocket();
-            //初始化InetAddress对象
+            // 鍒濆鍖朓netAddress瀵硅薄
             InetAddress serverAddr = InetAddress.getByName(serverIp);
 
-            //初始化DatagramPacket对象
+            // 鍒濆鍖朌atagramPacket瀵硅薄
              DatagramPacket dp = new DatagramPacket(buffer, buffer.length,
             		 serverAddr, UDP_SERVER_PORT);
             ds.send(dp);

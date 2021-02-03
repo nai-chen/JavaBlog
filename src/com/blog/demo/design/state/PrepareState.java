@@ -9,23 +9,23 @@ public class PrepareState implements State {
 
 	@Override
 	public void start() {
-		System.out.println("¿ªÊ¼²¥·ÅÊÓÆµ");
+		System.out.println("å¼€å§‹æ’­æ”¾è§†é¢‘");
 		mediaPlayer.setState(mediaPlayer.playState);
 	}
 
 	@Override
 	public void pause() {
-		System.out.println("ÊÓÆµ»¹Ã»¿ªÊ¼²¥·Å");
+		System.out.println("è§†é¢‘è¿˜æ²¡å¼€å§‹æ’­æ”¾");
 	}
 	
 	@Override
 	public void play() {
-		System.out.println("ÊÓÆµ»¹Ã»¿ªÊ¼²¥·Å");		
+		System.out.println("è§†é¢‘è¿˜æ²¡å¼€å§‹æ’­æ”¾");		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("ÊÓÆµ»¹Ã»¿ªÊ¼²¥·Å");
+		System.out.println("è§†é¢‘è¿˜æ²¡å¼€å§‹æ’­æ”¾");
 	}
 	
 }

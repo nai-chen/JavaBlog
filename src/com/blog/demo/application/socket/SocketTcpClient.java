@@ -20,10 +20,10 @@ public class SocketTcpClient {
 
 		try {
 			Socket socket = new Socket(serverIp, TCP_SERVER_PORT);
-			// »ñÈ¡ÊäÈëÁ÷
+			// è·å–è¾“å…¥æµ
 			BufferedReader in = new BufferedReader(new InputStreamReader(
 					socket.getInputStream()));
-			// Éú³ÉÊä³öÁ÷
+			// ç”Ÿæˆè¾“å‡ºæµ
 			BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
 					socket.getOutputStream()));
 
@@ -35,7 +35,7 @@ public class SocketTcpClient {
 			String inMsg = in.readLine();
 			System.out.println(inMsg);
 			
-			// ¹Ø±ÕÁ¬½Ó
+			// å…³é—­è¿æ¥
 			socket.close();
 		} catch (Exception e) {
 			e.printStackTrace();

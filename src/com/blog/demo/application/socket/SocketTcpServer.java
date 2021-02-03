@@ -19,19 +19,19 @@ public class SocketTcpServer {
 	public static void main(String[] args) {
 		int TCP_SERVER_PORT = 1234;
 
-		// ´´½¨Ò»¸öServerSocket¶ÔÏó
+		// åˆ›å»ºä¸€ä¸ªServerSocketå¯¹è±¡
 		ServerSocket serverSocket = null;
 		try {
 			serverSocket = new ServerSocket(TCP_SERVER_PORT);
-			// ¼àÌıÁ¬½ÓÇëÇó
+			// ç›‘å¬è¿æ¥è¯·æ±‚
 			Socket socket = serverSocket.accept();
-			// »ñÈ¡ÊäÈëÁ÷
+			// è·å–è¾“å…¥æµ
 			BufferedReader in = new BufferedReader(new 	
 					InputStreamReader(socket.getInputStream()));
-			// »ñÈ¡Êä³öÁ÷
+			// è¯»å–æ¥å—ä¿¡æ¯ï¼Œè½¬æ¢ä¸ºå­—ç¬¦ä¸²
 			BufferedWriter out = new BufferedWriter(new	
 					OutputStreamWriter(socket.getOutputStream()));
-			// ¶ÁÈ¡½ÓÊÕĞÅÏ¢£¬×ª»»Îª×Ö·û´®
+			// è¯»å–æ¥å—ä¿¡æ¯ï¼Œè½¬æ¢ä¸ºå­—ç¬¦ä¸²
 			String incomingMsg = in.readLine();
 			System.out.println(incomingMsg);
 

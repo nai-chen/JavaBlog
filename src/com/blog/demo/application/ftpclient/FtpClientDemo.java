@@ -37,7 +37,7 @@ public class FtpClientDemo {
 			int reply = ftpClient.getReplyCode();
 			System.out.println("reply = " + reply);
 			if (FTPReply.isPositiveCompletion(reply)) {
-				// 设置文件类型
+				// 璁剧疆鏂囦欢绫诲瀷
 				ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
 //				ftpClient.setFileType(FTP.ASCII_FILE_TYPE);
 				ftpClient.enterLocalPassiveMode();

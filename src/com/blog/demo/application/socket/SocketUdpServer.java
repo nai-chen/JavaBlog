@@ -18,12 +18,12 @@ public class SocketUdpServer {
 		byte[] buffer = new byte[MAX_LEN];
 		DatagramPacket dp = new DatagramPacket(buffer, MAX_LEN);
 		
-		// 新建一个DatagramSocket类
+		// 鏂板缓涓�涓狣atagramSocket瀵硅薄
 		DatagramSocket ds = null;
 		try {
-			// UDP服务器监听的端口
+			// UDP鏈嶅姟鍣ㄧ洃鍚殑绔彛
 			ds = new DatagramSocket(UDP_SERVER_PORT);
-			// 准备接收数据
+			// 鍑嗗鎺ユ敹鏁版嵁
 			ds.receive(dp);
 			System.out.println(new String(dp.getData(), 0, dp.getLength()));
 		} catch (Exception e) {

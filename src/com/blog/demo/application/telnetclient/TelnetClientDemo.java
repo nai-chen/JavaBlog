@@ -28,7 +28,7 @@ public class TelnetClientDemo {
 			InputStream remoteInput = telnetClient.getInputStream();
 			OutputStream remoteOutput = telnetClient.getOutputStream();
 			
-			// ReadThread线程监听输入，并输出到System.err
+			// ReadThread绾跨▼鐩戝惉杈撳叆锛屽苟杈撳嚭鍒癝ystem.err
 			ReadThread readThread = new ReadThread(remoteInput);
 			readThread.start();
 			

@@ -9,23 +9,23 @@ public class StopState implements State {
 
 	@Override
 	public void start() {
-		System.out.println("ÊÓÆµÒÑ¾­¿ªÊ¼²¥·ÅÁË");
+		System.out.println("è§†é¢‘å·²ç»å¼€å§‹æ’­æ”¾äº†");
 		mediaPlayer.setState(mediaPlayer.playState);
 	}
 
 	@Override
 	public void pause() {
-		System.out.println("ÊÓÆµÒÑ¾­Í£Ö¹²¥·ÅÁË");
+		System.out.println("è§†é¢‘å·²ç»åœæ­¢æ’­æ”¾äº†");
 	}
 	
 	@Override
 	public void play() {
-		System.out.println("ÊÓÆµÒÑ¾­Í£Ö¹²¥·ÅÁË");		
+		System.out.println("è§†é¢‘å·²ç»åœæ­¢æ’­æ”¾äº†");		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("ÊÓÆµÍ£Ö¹²¥·ÅÖĞ£¬ÎŞĞ§²Ù×÷");		
+		System.out.println("è§†é¢‘åœæ­¢æ’­æ”¾ä¸­ï¼Œæ— æ•ˆæ“ä½œ");		
 	}
 
 }

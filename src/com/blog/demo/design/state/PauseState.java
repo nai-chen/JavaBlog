@@ -9,23 +9,23 @@ public class PauseState implements State {
 	
 	@Override
 	public void start() {
-		System.out.println("视频已经开始播放了");
+		System.out.println("瑙嗛宸茬粡寮�濮嬫挱鏀句簡");
 	}
 
 	@Override
 	public void pause() {		
-		System.out.println("视频暂停中，无效操作");
+		System.out.println("瑙嗛鏆傚仠涓紝鏃犳晥鎿嶄綔");
 	}
 	
 	@Override
 	public void play() {
-		System.out.println("视频播放");
+		System.out.println("瑙嗛鎾斁");
 		mediaPlayer.setState(mediaPlayer.playState);
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("视频结束播放");
+		System.out.println("瑙嗛缁撴潫鎾斁");
 		mediaPlayer.setState(mediaPlayer.stopState);
 	}
 
