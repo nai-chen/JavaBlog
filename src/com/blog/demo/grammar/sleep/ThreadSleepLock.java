@@ -1,4 +1,4 @@
-package com.blog.demo.thread.sleep;
+package com.blog.demo.grammar.sleep;
 
 /*
  * https://blog.csdn.net/chennai1101/article/details/84764558

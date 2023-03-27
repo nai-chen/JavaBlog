@@ -1,4 +1,4 @@
-package com.blog.demo.thread.lock;
+package com.blog.demo.grammar.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

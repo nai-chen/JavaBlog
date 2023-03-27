@@ -1,4 +1,4 @@
-package com.blog.demo.thread.sync;
+package com.blog.demo.grammar.sync;
 
 /*
  * https://blog.csdn.net/chennai1101/article/details/84745728

@@ -1,4 +1,4 @@
-package com.blog.demo.thread.tools;
+package com.blog.demo.application.tools;
 
 import java.util.concurrent.CyclicBarrier;
 

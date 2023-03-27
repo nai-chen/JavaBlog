@@ -1,4 +1,4 @@
-package com.blog.demo.thread.interrupt;
+package com.blog.demo.grammar.interrupt;
 
 /*
  * https://blog.csdn.net/chennai1101/article/details/84765905

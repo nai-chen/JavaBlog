@@ -1,4 +1,4 @@
-package com.blog.demo.thread.wait;
+package com.blog.demo.grammar.wait;
 
 /*
  * https://blog.csdn.net/chennai1101/article/details/84744748

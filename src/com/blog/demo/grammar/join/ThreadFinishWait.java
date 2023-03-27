@@ -1,4 +1,4 @@
-package com.blog.demo.thread.join;
+package com.blog.demo.grammar.join;
 
 /*
  * https://blog.csdn.net/chennai1101/article/details/84745253

@@ -1,4 +1,4 @@
-package com.blog.demo.thread.timer;
+package com.blog.demo.application.timer;
 
 import java.util.Timer;
 import java.util.TimerTask;
